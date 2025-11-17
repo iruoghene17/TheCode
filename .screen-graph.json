@@ -1,0 +1,70 @@
+{
+  "nodes": [
+    {
+      "id": "src/Screens/DashboardClasses/DashboardClasses.tsx",
+      "label": "DashboardClasses",
+      "routes": [
+        "/"
+      ],
+      "dataModelId": "7:1040",
+      "isRoot": true
+    },
+    {
+      "id": "src/routes/DashboardYourNotes/screens/DashboardYourNotes.tsx",
+      "label": "DashboardYourNotes",
+      "routes": [
+        "/dashboard-yournotes"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "src\\Screens\\DashboardClasses\\DashboardClasses.tsx:31:6-to-src\\routes\\DashboardYourNotes\\screens\\DashboardYourNotes.tsx",
+      "source": "src\\Screens\\DashboardClasses\\DashboardClasses.tsx",
+      "target": "src\\routes\\DashboardYourNotes\\screens\\DashboardYourNotes.tsx",
+      "data": {
+        "viaRoute": "/dashboard-yournotes",
+        "trigger": {
+          "element": "navigate(\"/dashboard-yournotes\")",
+          "line": 31,
+          "endLine": 31,
+          "column": 6,
+          "endColumn": 38,
+          "sourceFile": "src\\Screens\\DashboardClasses\\DashboardClasses.tsx"
+        }
+      }
+    },
+    {
+      "id": "src\\routes\\DashboardYourNotes\\screens\\sections\\SummaryPillsSection.tsx:18:6-to-src\\Screens\\DashboardClasses\\DashboardClasses.tsx",
+      "source": "src\\routes\\DashboardYourNotes\\screens\\DashboardYourNotes.tsx",
+      "target": "src\\Screens\\DashboardClasses\\DashboardClasses.tsx",
+      "data": {
+        "viaRoute": "/",
+        "trigger": {
+          "element": "navigate(\"/\")",
+          "line": 18,
+          "endLine": 18,
+          "column": 6,
+          "endColumn": 19,
+          "sourceFile": "src\\routes\\DashboardYourNotes\\screens\\sections\\SummaryPillsSection.tsx"
+        }
+      }
+    },
+    {
+      "id": "src\\routes\\DashboardYourNotes\\screens\\sections\\NavigationTabBarSection.tsx:32:6-to-src\\Screens\\DashboardClasses\\DashboardClasses.tsx",
+      "source": "src\\routes\\DashboardYourNotes\\screens\\DashboardYourNotes.tsx",
+      "target": "src\\Screens\\DashboardClasses\\DashboardClasses.tsx",
+      "data": {
+        "viaRoute": "/",
+        "trigger": {
+          "element": "navigate(\"/\")",
+          "line": 32,
+          "endLine": 32,
+          "column": 6,
+          "endColumn": 19,
+          "sourceFile": "src\\routes\\DashboardYourNotes\\screens\\sections\\NavigationTabBarSection.tsx"
+        }
+      }
+    }
+  ]
+}
